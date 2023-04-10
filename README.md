@@ -1,11 +1,11 @@
 # ReaderWriterAssignment
 
-This file contains Assignment of Session 5 Assignment 1 
+## This file contains Assignment of Session 5 Assignment 1 
 
 This is an implementation of the writer's-preference reader-writer lock in Scala. The purpose of this lock is to prevent more than one thread modifying a shared resource simultaneously and to allow multiple reader threads to access the shared resource simultaneously. In addition, this implementation prioritizes writer threads over reader threads.
 
 
-##Implementation
+## Implementation
 
 The implementation consists of a ReadWriteLock class with two methods: readLock() and writeLock(). The readLock() method acquires a read lock, which allows multiple reader threads to access the shared resource simultaneously. The writeLock() method acquires a write lock, which allows only one writer thread to modify the shared resource at a time.
 
